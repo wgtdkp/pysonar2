@@ -127,10 +127,14 @@ public class TypeInferencer implements Visitor1<Type, State> {
                 return ltype;
             } else if (ltype == Types.NoneInstance) {
                 return rtype;
+            } else {
+                return Types.BoolInstance;
             }
         } else if (node.op == Op.And) {
             if (rtype == Types.NoneInstance || ltype == Types.NoneInstance) {
                 return Types.NoneInstance;
+            } else {
+                return Types.BoolInstance;
             }
         }
 
