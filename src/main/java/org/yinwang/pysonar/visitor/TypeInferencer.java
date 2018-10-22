@@ -8,6 +8,7 @@ import org.yinwang.pysonar.Binding;
 import org.yinwang.pysonar.Builtins;
 import org.yinwang.pysonar.State;
 import org.yinwang.pysonar.ast.*;
+import org.yinwang.pysonar.ast.Module;
 import org.yinwang.pysonar.CallStackEntry;
 import org.yinwang.pysonar.types.ClassType;
 import org.yinwang.pysonar.types.DictType;

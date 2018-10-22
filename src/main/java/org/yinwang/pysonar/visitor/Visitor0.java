@@ -3,6 +3,7 @@ package org.yinwang.pysonar.visitor;
 
 import org.jetbrains.annotations.NotNull;
 import org.yinwang.pysonar.ast.*;
+import org.yinwang.pysonar.ast.Module;
 
 import java.util.ArrayList;
 import java.util.List;

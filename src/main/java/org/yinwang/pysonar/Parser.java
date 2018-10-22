@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.yinwang.pysonar.ast.*;
+import org.yinwang.pysonar.ast.Module;
 
 import java.io.File;
 import java.io.OutputStreamWriter;
